@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NPKNetworkErrorHandler"
-  s.version      = "1.0.0"
+  s.version      = “1.0.1”
   s.summary      = "ARC and GCD Compatible Reachability Class for iOS and OS X."
   s.description  = <<-DESC
                   This application will help you to implement simple free hand drawing in ios :).
