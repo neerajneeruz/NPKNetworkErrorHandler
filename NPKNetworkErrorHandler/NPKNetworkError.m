@@ -263,7 +263,7 @@
     }
     else{
         
-        self.errorString=@"No Error.";
+        self.errorString=@"No Error";
         
         return self.errorString;
     }
