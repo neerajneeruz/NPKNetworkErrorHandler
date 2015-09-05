@@ -10,6 +10,7 @@
 		84D76A751B9AA99400EC38B6 /* NPKNetworkErrorHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84D76A741B9AA99400EC38B6 /* NPKNetworkErrorHandler.h */; };
 		84D76A771B9AA99400EC38B6 /* NPKNetworkErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D76A761B9AA99400EC38B6 /* NPKNetworkErrorHandler.m */; };
 		84D76A7D1B9AA99400EC38B6 /* libNPKNetworkErrorHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D76A711B9AA99400EC38B6 /* libNPKNetworkErrorHandler.a */; };
+		84D76A8D1B9AA9AD00EC38B6 /* NPKNetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D76A8C1B9AA9AD00EC38B6 /* NPKNetworkError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		84D76A761B9AA99400EC38B6 /* NPKNetworkErrorHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPKNetworkErrorHandler.m; sourceTree = "<group>"; };
 		84D76A7C1B9AA99400EC38B6 /* NPKNetworkErrorHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPKNetworkErrorHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D76A821B9AA99500EC38B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D76A8B1B9AA9AD00EC38B6 /* NPKNetworkError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPKNetworkError.h; sourceTree = "<group>"; };
+		84D76A8C1B9AA9AD00EC38B6 /* NPKNetworkError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPKNetworkError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			children = (
 				84D76A741B9AA99400EC38B6 /* NPKNetworkErrorHandler.h */,
 				84D76A761B9AA99400EC38B6 /* NPKNetworkErrorHandler.m */,
+				84D76A8B1B9AA9AD00EC38B6 /* NPKNetworkError.h */,
+				84D76A8C1B9AA9AD00EC38B6 /* NPKNetworkError.m */,
 			);
 			path = NPKNetworkErrorHandler;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D76A771B9AA99400EC38B6 /* NPKNetworkErrorHandler.m in Sources */,
+				84D76A8D1B9AA9AD00EC38B6 /* NPKNetworkError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
