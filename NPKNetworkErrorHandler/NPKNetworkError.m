@@ -277,6 +277,7 @@
     [self getErrorMessageFromCode:errorCode];
     
     UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Message" message:self.errorString delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+     alert.delegate=self;
     [alert show];
     
 }

@@ -19,11 +19,12 @@
 {
     NSString *errorString;
     
-    id<NPKNetworkErrorDelegate> delegate;
+   __weak id<NPKNetworkErrorDelegate> delegate;
  
     
 }
-@property(nonatomic,strong)id<NPKNetworkErrorDelegate> delegate;
+@property (weak) id <NPKNetworkErrorDelegate> delegate;
+//@property(nonatomic,strong)id<NPKNetworkErrorDelegate> delegate;
 -(NSString* )getErrorMessageFromCode:(NSString *)errorCode;
 -(void)showNetworkErrorAlertFromCode:(NSString *)errorCode;
 @property (nonatomic,retain) NSString *errorString;
